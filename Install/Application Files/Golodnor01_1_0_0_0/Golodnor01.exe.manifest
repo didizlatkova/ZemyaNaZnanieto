@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="Golodnor01.exe" version="1.0.0.0" publicKeyToken="0a85c8e6905cf4be" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="earth (2).ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Golodnor01" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Golodnor01.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ba97R8RWW9x37FCSLl2Inw75xAE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Golodnor01.exe" size="29787136">
+      <assemblyIdentity name="Golodnor01" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>E0XmIcNGEvk+9LY5ustOPYkYEo0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="331264">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>+6GV3Fcfxv2QBOOLEfdM7jcbo8Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="earth (2).ico" size="102134">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4EhXN1YR/Lp6wJGmkfUpX7Lw/Lc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="earth.ico" size="109638">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>xJLSFMfkYFEwpKDpdliUfpuSu/A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Golodnor01.exe.config" size="1504">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1ncompVaKCiGodt0eadxfMyWWlc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Music\Intro.mp3" size="1024473">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JL9molO8M1CVMs9ED9sIEXlFAQk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Music\Level1.mp3" size="1575302">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>mIGZIK1ai5DyJl+rhchs/P6KQ+4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Music\Level2.mp3" size="1804589">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>FCzAN3YpOIpA6KH31Qr2M3rbh+Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Music\Level3.mp3" size="892753">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TbJ3WifBRJcIzkYL/iv1fuEz0cE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Music\Level4.mp3" size="2124992">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>B2TfP7hr02UzWmOexgxINPr7Y60=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Questions.mdf" size="2359296" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>D7isknvqM390zallC8tsNFiZd2E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Questions_log.ldf" size="589824" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>t9VTobz24VcGsUIl2J3HqGg1eYA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HP\Owner" issuerKeyHash="31794e214e53efac90231da517b671b415e0b3d3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>zwbDCZjeUw3ZHgQEbZ9hNyHqkqw=</DigestValue></Reference></SignedInfo><SignatureValue>wHbQX2h78ZklIdvmwhJpRhJYWPMN8o9Q4qB5SmH38C62cQhqhUSgrhxcapKJj5mmZKTaF7kSkmjTYZ2WL+QJsZMBJWG40j6/8dlgcjP6Q43O0NldaywQBSwtADDht5Ax2Pod685gFz5jm2MgQGMvHu9mN4i/2QY5XdQ664tRmtk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4Lvp8d9zfG+j7ShgQjFRFRjMHLxYhnYFN9+jBvAOCzIgoIzrVK+ZOqIfZjBUuecp5YX/j334p0UH3+a0j4Yn+w7sZEXnWXFunsLYeWUx28wxBZe6rOy622EsHlXlM+dwaz3pkNbmwQsBcph815W0g4r3f695X9uOLnhZhdhHTRs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ac92ea2137619f6d04041ed90d53de9809c306cf" Description="" Url=""><as:assemblyIdentity name="Golodnor01.exe" version="1.0.0.0" publicKeyToken="0a85c8e6905cf4be" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HP\Owner</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>lmkqcgsh3UPg4ULVhLDFa8SVDYk=</DigestValue></Reference></SignedInfo><SignatureValue>uQwiltyBi0YEIr72p0NLKie03lpekLcrbyx6GFeZmw3KVt80gg30UL4pWxJQsSMnR3HxajnOWvZS+U62a9/0ldauWuZWWz+ZKp/iMp/xUb37CtO7U2Ae7HM7yQEfazz7DVg1gX9s9x5Dpct2QVnJqbLo1p1MB09OnjsC2PSAqcU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4Lvp8d9zfG+j7ShgQjFRFRjMHLxYhnYFN9+jBvAOCzIgoIzrVK+ZOqIfZjBUuecp5YX/j334p0UH3+a0j4Yn+w7sZEXnWXFunsLYeWUx28wxBZe6rOy622EsHlXlM+dwaz3pkNbmwQsBcph815W0g4r3f695X9uOLnhZhdhHTRs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBuTCCASKgAwIBAgIQUWsfjWdw75NI+zrDTHtS0DANBgkqhkiG9w0BAQUFADAbMRkwFwYDVQQDHhAASABQAFwATwB3AG4AZQByMB4XDTEyMDMwMzE5MzgwOFoXDTEzMDMwNDAxMzgwOFowGzEZMBcGA1UEAx4QAEgAUABcAE8AdwBuAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA4Lvp8d9zfG+j7ShgQjFRFRjMHLxYhnYFN9+jBvAOCzIgoIzrVK+ZOqIfZjBUuecp5YX/j334p0UH3+a0j4Yn+w7sZEXnWXFunsLYeWUx28wxBZe6rOy622EsHlXlM+dwaz3pkNbmwQsBcph815W0g4r3f695X9uOLnhZhdhHTRsCAwEAATANBgkqhkiG9w0BAQUFAAOBgQAUpzCM8NXSQveckd9vgMNOPkefk6TuOt3EmRGLW72I9sXx30/lhpAloJf1HleibwTboe/ZDX9qQxMCVAZAuwUmpmUVepLiSZDA1AGiyT6FQZh/Bqz9H6NfhAR5lkPlkfF3g1sSPEMwZwHa9Yx8b8Air2UrvH2wPf/tjFAlN/GUAA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
